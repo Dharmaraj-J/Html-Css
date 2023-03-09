@@ -20,6 +20,13 @@
         width: 100px;
         color: black;
         border: none;
+        transition: opacity 0.15s;
+      }
+      .cart-button:hover {
+        opacity: 0.8;
+      }
+      .cart-button:active {
+        opacity: 0.6;
       }
       .buy-button {
         margin-left: 15px;
@@ -28,11 +35,26 @@
         border-radius: 15px;
         border: none;
         background-color: rgb(241, 128, 46);
+        transition: opacity 0.15s;
+      }
+      .buy-button:hover {
+        opacity: 0.8;
+      }
+      .buy-button:active {
+        opacity: 0.6;
+      }
+      .link-amazon {
+        transition: color 0.15s;
+      }
+      .link-amazon:hover {
+        color: brown;
       }
     </style>
   </head>
   <body>
-    <a href="https://amazon.com" target="_blank">Back to Amazon</a>
+    <a class="link-amazon" href="https://amazon.com" target="_blank"
+      >Back to Amazon</a
+    >
 
     <p class="p1">Nike Black Running Shoes</p>
 
