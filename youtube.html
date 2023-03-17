@@ -1,28 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Youtube.clone</title>
-    <style>
-      .thumbnail {
-        width: 300px;
-        display: block;
-      }
-      .search-bar {
-        font-size: 20px;
-        margin-left: 20px;
-      }
-      .viedo-title {
-        width: 200px;
-      }
-    </style>
-  </head>
-  <body>
-    <input class="search-bar" type="text" placeholder="search" />
+
+<head>
+  <title>Youtube.clone</title>
+  <style>
+    .thumbnail {
+      width: 300px;
+      display: block;
+    }
+
+    .search-bar {
+      display: block;
+    }
+
+    .viedo-title {
+      width: 200px;
+    }
+
+    .viedo-preview {
+      width: 300px;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <input class="search-bar" type="text" placeholder="search" />
+  <div class="viedo-preview">
     <img class="thumbnail" src="thumbnail/thumbnail-1.webp" />
     <p class="viedo-title">
       Talking Tech and AI with Google CEO Sundar Pichai!
     </p>
     <p class="video-authour">Marques Brownlee</p>
     <p class="video-status">3.4M views &#xb7 6 months ago</p>
-  </body>
+  </div>
+
+  <div class="viedo-preview">
+    <img class="thumbnail" src="thumbnail/thumbnail-2.webp" />
+    <p class="viedo-title">
+      Try Not To Laugh Challenge #9
+    </p>
+    <p class="video-authour">Markiplier</p>
+    <p class="video-status">19M views · 4 years ago</p>
+  </div>
+</body>
+
 </html>
