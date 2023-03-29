@@ -29,6 +29,19 @@
 
 .tumbnail-row {
   margin-bottom: 14px;
+  position: relative;
+}
+.video-time {
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  padding: 3px 4px 3px 4px;
+  border-radius: 3px;
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
 }
 
 .video-authour,
