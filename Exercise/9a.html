@@ -5,48 +5,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flex</title>
+    <title>Flexbocx Practice</title>
     <style>
-        .container {
-            border-width: 1px;
-            border-style: solid;
-            border-color: rgb(200, 200, 200);
-            width: 300px;
-            border-radius: 6px;
-        }
 
-        .flexbox {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            padding: 6px 12px 6px 12px;
-        }
-
-        .notifications {
-            background-color: rgb(49, 109, 245);
-            padding: 5px 10px 5px 10px;
-            border-radius: 10px;
-            font-size: 14px;
-            font-weight: bold;
-        }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="flexbox">
-            <div>Home</div>
-            <div class="notifications">14</div>
-        </div>
-        <div class="flexbox">
-            <div>Notifications</div>
-            <div class="notifications">3</div>
-        </div>
-        <div class="flexbox">
-            <div>Messages</div>
-            <div class="notifications">5</div>
-        </div>
+    <div style="
+    display:flex;
+    flex-direction:row;
+    ">
+        <div style="
+        background-color:pink;
+        width:100px
+        ">100px</div>
+        <div style="
+        background-color:lightblue;
+        width:75px
+        ">75px</div>
+    </div>
+
+    <div style="
+    display:flex;
+    flex-direction:row;
+    margin-top:30px
+    ">
+        <div style="
+        background-color:pink;
+        width:50px
+        ">Item 1</div>
+        <div style="
+        background-color:lightblue;
+        flex:1;
+        ">Item 2</div>
+        <div style="
+        background-color:pink;
+        width:75px;
+        ">Item 3</div>
+    </div>
+
+    <div style="
+    display:flex;
+    flex-direction:row;
+    margin-top:30px;
+    justify-content:space-between;
+    ">
+        <div style="
+        background-color:pink;
+        ">Item 1</div>
+        <div style="
+        background-color:lightblue;
+        ">Item 2</div>
+        <div style="
+        background-color:pink;
+        ">Item 3</div>
+        <div style="
+        background-color:lightblue;
+        ">Item 4</div>
+    </div>
+
+    <div style="
+    display:flex;
+    flex-direction:row;
+    margin-top:30px;
+    justify-content:space-between;
+    border: 1px solid gray;
+    height:50px;
+    align-items:center;
+    ">
+        <div style="
+        background-color:pink;
+        ">Item 1</div>
+        <div style="
+        background-color:lightblue;
+        ">Item 2</div>
     </div>
 </body>
 
